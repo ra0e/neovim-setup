@@ -42,7 +42,6 @@ if [[ "$OS" == "Darwin" ]]; then
     install_mac "fzf"
     install_mac "fd"
     install_mac "tmux"
-    brew install --HEAD fzf-tmux 
 
 elif [[ "$OS" == "Linux" ]]; then
     # Linux
